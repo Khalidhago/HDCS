@@ -1,0 +1,53 @@
+name: Validate Blueprint
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+      - copilot/**
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate ecosystem manifest and required documents
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path(".")
+          manifest_path = root / "ecosystem.manifest.json"
+          manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+
+          required_top_level = {
+              "organization",
+              "architecture",
+              "platforms",
+              "capabilities",
+              "delivery",
+              "repositories",
+          }
+          missing = required_top_level - manifest.keys()
+          if missing:
+              raise SystemExit(f"Missing manifest keys: {sorted(missing)}")
+
+          required_docs = [
+              root / "README.md",
+              root / "docs" / "reference-architecture.md",
+              root / "docs" / "github-organization-structure.md",
+          ]
+          missing_docs = [str(path) for path in required_docs if not path.exists()]
+          if missing_docs:
+              raise SystemExit(f"Missing required documents: {missing_docs}")
+
+          if len(manifest["repositories"]) < 10:
+              raise SystemExit("Repository blueprint is unexpectedly incomplete")
+
+          print("Blueprint validation passed")
+          PY

@@ -1,0 +1,205 @@
+{
+  "organization": {
+    "name": "Hago Drone Consulting Services",
+    "shortName": "HDCS",
+    "type": "open-source-drone-software-ecosystem"
+  },
+  "architecture": {
+    "style": [
+      "modular",
+      "microservice",
+      "plugin-based",
+      "polyglot"
+    ],
+    "apis": [
+      "REST",
+      "gRPC",
+      "MQTT"
+    ],
+    "protocols": [
+      "MAVLink",
+      "DroneCAN",
+      "ROS2"
+    ],
+    "autopilotIntegrations": [
+      "PX4",
+      "ArduPilot"
+    ]
+  },
+  "platforms": {
+    "operatingSystems": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "hardware": [
+      "ARM",
+      "NVIDIA Jetson",
+      "Raspberry Pi",
+      "Intel x86",
+      "STM32",
+      "ESP32"
+    ]
+  },
+  "capabilities": {
+    "coreFlightSoftware": [
+      "Flight Controller SDK",
+      "Flight Stack",
+      "Mission Planner",
+      "Ground Control Station",
+      "Telemetry System",
+      "Navigation Engine",
+      "Guidance Algorithms",
+      "Flight Dynamics Library",
+      "Autopilot SDK",
+      "DroneCAN Library",
+      "MAVLink Library",
+      "PX4 Interface",
+      "ArduPilot Interface"
+    ],
+    "ai": [
+      "Object Detection",
+      "Object Tracking",
+      "Human Detection",
+      "Vehicle Detection",
+      "Fire Detection",
+      "Smoke Detection",
+      "Wildlife Detection",
+      "Intrusion Detection",
+      "Crop Disease Detection",
+      "Face Detection",
+      "License Plate Recognition",
+      "SLAM",
+      "Visual Odometry",
+      "Terrain Classification",
+      "Path Planning",
+      "Collision Avoidance",
+      "Reinforcement Learning",
+      "Autonomous Landing",
+      "Autonomous Takeoff",
+      "Autonomous Swarming"
+    ],
+    "frameworks": [
+      "YOLO",
+      "RT-DETR",
+      "SAM",
+      "TensorRT",
+      "ONNX",
+      "TensorFlow",
+      "PyTorch"
+    ],
+    "computerVision": [
+      "Camera Calibration",
+      "Image Stitching",
+      "Panorama",
+      "3D Reconstruction",
+      "Structure from Motion",
+      "Optical Flow",
+      "Stereo Vision",
+      "Thermal Camera",
+      "Multispectral Processing",
+      "Hyperspectral Processing",
+      "Video Analytics"
+    ],
+    "navigation": [
+      "GPS",
+      "RTK",
+      "PPK",
+      "INS",
+      "IMU Fusion",
+      "EKF",
+      "UKF",
+      "Particle Filter",
+      "Visual Navigation",
+      "GPS-denied Navigation",
+      "Indoor Navigation",
+      "Terrain Following",
+      "Precision Landing"
+    ],
+    "swarm": [
+      "Mesh Networking",
+      "Formation Flying",
+      "Distributed Mission Planning",
+      "Distributed AI",
+      "Task Allocation",
+      "Swarm Communication",
+      "Swarm Simulation",
+      "Leader Election",
+      "Consensus Algorithms"
+    ],
+    "mapping": [
+      "Orthomosaic Generation",
+      "DEM",
+      "DSM",
+      "Point Cloud",
+      "LiDAR Processing",
+      "Photogrammetry",
+      "Survey Tools",
+      "GIS Integration",
+      "GeoTIFF",
+      "LAS",
+      "LAZ",
+      "Shapefile",
+      "GeoJSON"
+    ],
+    "missionPlanning": [
+      "Route Planning",
+      "Waypoints",
+      "No-Fly Zones",
+      "Geofencing",
+      "Terrain Following",
+      "Battery Optimization",
+      "Dynamic Replanning",
+      "Emergency Landing",
+      "Return-to-Home",
+      "Multi-Drone Missions"
+    ],
+    "simulation": [
+      "Gazebo",
+      "AirSim",
+      "Unreal Engine",
+      "Unity",
+      "PX4 SITL",
+      "ArduPilot SITL",
+      "Digital Twin"
+    ]
+  },
+  "delivery": {
+    "quality": [
+      "Unit Testing",
+      "Integration Testing",
+      "CI/CD Pipelines"
+    ],
+    "deployment": [
+      "Docker",
+      "Kubernetes"
+    ]
+  },
+  "repositories": [
+    "hdcs-flight-controller-sdk",
+    "hdcs-flight-stack",
+    "hdcs-mission-planner",
+    "hdcs-ground-control-station",
+    "hdcs-telemetry-system",
+    "hdcs-navigation-engine",
+    "hdcs-guidance-algorithms",
+    "hdcs-flight-dynamics",
+    "hdcs-autopilot-sdk",
+    "hdcs-dronecan",
+    "hdcs-mavlink",
+    "hdcs-px4-interface",
+    "hdcs-ardupilot-interface",
+    "hdcs-ai",
+    "hdcs-computer-vision",
+    "hdcs-navigation",
+    "hdcs-swarm",
+    "hdcs-mapping",
+    "hdcs-mission-services",
+    "hdcs-simulation",
+    "hdcs-api-contracts",
+    "hdcs-platform-ops",
+    "hdcs-docs"
+  ]
+}
