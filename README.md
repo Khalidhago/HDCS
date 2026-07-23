@@ -21,7 +21,7 @@ It defines standards, architecture direction, maturity model, and portfolio road
 
 - **Repository maturity:** Level 2 — Functional
 - **Intent:** Progress to Level 4 for governance/documentation quality and Level 5 as a reference architecture hub
-- **Status labels:** Every linked project should explicitly state Idea / Prototype / Functional / Engineered / Production-Ready / Reference
+- **Status labels:** Every linked project should explicitly state Idea / Prototype / Functional / Engineered / Production-Ready / Reference Project
 
 ## Ecosystem Domains
 
