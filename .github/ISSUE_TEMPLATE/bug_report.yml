@@ -1,0 +1,26 @@
+name: Bug Report
+description: Report incorrect content, broken links, or governance defects.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is broken or incorrect?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Why this matters to engineering quality or safety.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction / Location
+      description: Paths, links, and steps to reproduce.
+    validations:
+      required: true
