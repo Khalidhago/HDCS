@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - 2026-07-25
+
+### Added
+
+- Flagship specification for `hago-px4-autonomy-platform`
+- PX4 autonomy engineering rationale, assumptions, risks, alternatives, and success criteria
+- Architecture boundaries, validation gates, and maturity policy for PX4 autonomy platform development
+
 ## [0.2.0] - 2026-07-25
 
 ### Added

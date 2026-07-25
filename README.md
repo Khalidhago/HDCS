@@ -101,6 +101,7 @@ See: [docs/roadmap/roadmap-12-month.md](docs/roadmap/roadmap-12-month.md)
 ## Stage 2 In Progress
 
 - [docs/flagships/hago-uav-simulation-lab.md](docs/flagships/hago-uav-simulation-lab.md)
+- [docs/flagships/hago-px4-autonomy-platform.md](docs/flagships/hago-px4-autonomy-platform.md)
 
 ## Contributing
 
