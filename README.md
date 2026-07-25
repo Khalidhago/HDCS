@@ -102,6 +102,7 @@ See: [docs/roadmap/roadmap-12-month.md](docs/roadmap/roadmap-12-month.md)
 
 - [docs/flagships/hago-uav-simulation-lab.md](docs/flagships/hago-uav-simulation-lab.md)
 - [docs/flagships/hago-px4-autonomy-platform.md](docs/flagships/hago-px4-autonomy-platform.md)
+- [docs/flagships/hago-ros2-uav-framework.md](docs/flagships/hago-ros2-uav-framework.md)
 
 ## Contributing
 

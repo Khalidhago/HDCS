@@ -6,7 +6,7 @@
 
 ## One-Sentence Technical Description
 
-Simulation-first UAV/UAS engineering platform integrating PX4 SITL, ROS 2, Gazebo, mission logic, and validation workflows before controlled real-world testing.
+Simulation-first UAV/UAS systems-engineering platform integrating PX4 SITL, ROS 2, Gazebo, mission logic, and validation workflows before controlled real-world testing.
 
 ## Mission Statement
 

@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.4.0] - 2026-07-25
+
+### Added
+
+- Flagship specification for `hago-ros2-uav-framework`
+- ROS 2 framework engineering rationale, assumptions, risks, alternatives, and success criteria
+- Architecture boundaries, interface governance, and validation gates for ROS 2 UAV framework development
+
 ## [0.3.0] - 2026-07-25
 
 ### Added
