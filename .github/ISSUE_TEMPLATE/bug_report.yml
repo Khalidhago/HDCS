@@ -1,0 +1,37 @@
+name: Bug Report
+description: Report an engineering defect or documentation inconsistency.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Clear description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed Behavior
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Safety/Operational Impact
+      description: Describe any safety, reliability, or mission impact.
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction Steps
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
